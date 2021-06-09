@@ -1,0 +1,88 @@
+apiVersion: v1
+entries:
+  helmpushdemo:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-06-06T12:06:26.628485564+05:30"
+    description: A Helm chart demo using helm push plugin
+    digest: 0255f28e2e22ed08362e1e3d772f42f78bbf295243801dd889734229f0176245
+    name: helmpushdemo
+    type: application
+    urls:
+    - charts/helmpushdemo-0.1.0.tgz
+    version: 0.1.0
+  mychart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-06-06T11:56:14.544482116+05:30"
+    description: A Helm repo demo using chartmuseum version to 0.1.2
+    digest: 9a4315377d8e2880abf941392abd041d7fb2aaa14ef3722678d24da73c1b5d69
+    name: mychart
+    type: application
+    urls:
+    - charts/mychart-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-06-06T11:53:08.940481071+05:30"
+    description: A Helm repo demo using chartmuseum
+    digest: d2db7b4fb77931f35a9da86a78dcbe50f35857ef9c8265cf8f0e558c4b0ac7b3
+    name: mychart
+    type: application
+    urls:
+    - charts/mychart-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-06-06T11:48:58.836479662+05:30"
+    description: A Helm repo demo using chartmuseum
+    digest: 896b5eafb48352de3d28a4fdc88020ca3912fb75b358a8effcfcdf57a1dcad01
+    name: mychart
+    type: application
+    urls:
+    - charts/mychart-0.1.0.tgz
+    version: 0.1.0
+  myrepo:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-06-06T11:59:55.472483361+05:30"
+    description: A another Helm Chart
+    digest: 4cb9c199aeaa0cd98eccd1b034d5755392d53fc841eb37ec812fa31f6d5ec082
+    name: myrepo
+    type: application
+    urls:
+    - charts/myrepo-0.1.0.tgz
+    version: 0.1.0
+  upgrade-rlbk-demo:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-06-06T15:15:53.634021134+05:30"
+    description: A Helm Chart with three pods
+    digest: 327f18b671b20436f3390d0a0df2e21f01a9e6bcacffe904c0faef410c5c0484
+    name: upgrade-rlbk-demo
+    type: application
+    urls:
+    - charts/upgrade-rlbk-demo-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-06-06T15:08:13.674018544+05:30"
+    description: A Helm Chart with two pods
+    digest: 02b44a179a22fa8e892d73eb98afdbd13d1a396b119db1bbc8da044c73b0134c
+    name: upgrade-rlbk-demo
+    type: application
+    urls:
+    - charts/upgrade-rlbk-demo-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-06-06T14:58:41.710015322+05:30"
+    description: A Helm Chart for upgrade and rollack details
+    digest: 41f9ea4f9c7b9b604a9eb88e3d0c093253a7c7086baec00cfe6f2f47ec1eed6b
+    name: upgrade-rlbk-demo
+    type: application
+    urls:
+    - charts/upgrade-rlbk-demo-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-06-06T15:16:07+05:30"
+serverInfo: {}

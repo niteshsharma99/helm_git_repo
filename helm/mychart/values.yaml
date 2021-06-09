@@ -1,0 +1,19 @@
+costcode : C00111
+infra:
+    region: us-e
+    zone: a,b,c
+projectCode: aazzyyyy
+tags:
+  machine: frontdrive
+  rack: 4c
+  drive: ssd
+  vcard: 8g
+LangUsed:
+  - python
+  - java
+  - ruby
+  - R
+global:
+  orgdomain: com.nitesh
+mysubchart:
+  dbhostname: prodmysqlnode

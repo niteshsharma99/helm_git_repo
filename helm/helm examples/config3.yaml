@@ -1,0 +1,26 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{.Release.Name}}-configmap
+  labels:
+  {{- with .Values.tags }}
+    first: {{ .machine }}
+    second: {{ .rack }}
+    third: {{ .drive }}
+  {{- end }}
+
+data:
+  myvalue: "Sample config Map"
+  costcode:  {{ .Values.costcode }}
+  projectCode: {{ upper .Values.projectCode }}
+  Zone: {{ quote .Values.infra.zone }}
+  Region: {{ quote .Values.infra.region }}
+  {{- $relname := .Release.Name -}}
+  {{- with .Values.tags }}
+  Machine-Type: {{ .machine | default "NA" | quote }}
+  Rack-ID: {{ .rack | quote }}
+  Storage-Type: {{ .drive | upper | quote }}
+  Video-Card: {{ .vcard | quote }}
+  Release: {{ $relname }}
+  {{- end }}
+
